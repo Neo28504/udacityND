@@ -1,0 +1,43 @@
+npm install
+
+cd app
+npm install
+
+Starter code is available at
+
+Download here: https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip
+
+Open the package-lock.json and verify that "truffle-hdwallet-provider" and "openzeppelin-solidity" dependencies are installed. If not you can always install it with the commands:
+
+"npm install --save truffle-hdwallet-provider"
+
+"npm install --save openzeppelin-solidity"
+
+For starting the development console, run:
+
+"truffle develop"
+
+For compiling the contract, inside the development console, run:
+
+"compile"
+
+For migrating the contract to the locally running Ethereum network, inside the development console, run:
+
+"migrate --reset"
+
+For running unit tests the contract, inside the development console, run:
+
+"test"
+
+For running the Front End of the DAPP, open another terminal window and go inside the project directory, and run:
+
+"cd app"
+
+delete node_module folder
+
+"npm install"
+
+"npm run dev"
+
+Deploying to rinkeby: Turn of VPN!!!
+truffle migrate --reset --network rinkeby
